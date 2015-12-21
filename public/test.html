@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+
+</head>
+<body>
+<script>
+$.ajax({
+	type: 'post',
+	url: 'http://api.wish.tongjo.me/login',
+	data: {tel: 123, password:123},
+	
+}).done(function(){
+	$.ajax({
+		url: 'http://api.wish.tongjo.me/wish/mylist'
+	})
+});
+</script>
+</body>
+</html>

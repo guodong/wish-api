@@ -1,0 +1,40 @@
+/*手机版响应式*/
+@media screen and (max-width: 750px),(max-device-width: 750px) {
+
+#slide .info {display: none;}
+#slide ul, #slide ul li img {
+  width: 100%;
+  height: auto;
+}
+#partDownload {display: none;}
+.mobileDownload {display: table;}
+#contactUs {
+  width: 100%;
+}
+#contactUs ul {
+  margin: 20px 0 30px;
+}
+#contactUs ul li{
+  margin: 2%;
+  width: 46%;
+}
+#contactUs ul li .icon{
+  display: none;
+}
+#contactUs ul li h1{
+  font-size: 23px;
+  padding: 13px 0 0 0;
+  width: 100%;
+  text-align: center;
+}
+#contactUs ul li p {
+  width: 100%;
+  padding: 8px 0 13px 0;
+  text-align: center;
+}
+#pleaseWait a {
+  font-size: 20px;
+  padding: 5px 15px;
+  margin: -40px 0 0 -115px;
+}
+}

@@ -1,0 +1,39 @@
+/*手机版响应式*/
+@media screen and (max-width: 750px),(max-device-width: 750px) {
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+  -webkit-text-size-adjust： none;
+}
+/* 设置HTML5元素为块 */
+article， aside， details， figcaption， figure， footer， header， hgroup， menu， nav， section {
+  display： block;
+}
+/*plugmenu*/
+.plug-div {
+  display: block !important;
+}
+#header {
+  height: 40px !important;
+}
+#header #toptb{
+  width: 100% !important;
+  height: 40px !important;
+}
+#header #toptb .logo {
+  display: none;
+}
+#header #toptb .topNav{
+  float: none !important;
+  height: 40px !important;
+}
+#header #toptb .topNav .bu{
+  width: 33% !important;
+  height: 40px !important;
+  line-height: 40px !important;
+}
+#header #toptb .topNav .bu:hover{
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+}
